@@ -22,6 +22,18 @@ img{
   width: 100%;
 }
 
+*{
+    color: #000088 !important;
+}
+
+
+form{
+    padding: 10px;
+}
+
+form select{
+    margin-bottom: 10px;
+}
         </style>
         <link rel="stylesheet" href="css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="css/main.css">
@@ -37,26 +49,39 @@ img{
 
     <div class="container">
       <!-- Example row of columns -->
-      <div class="row">
+
+      <div class="row row-eq-height">
+
+        <div class="row" style="text-align: center;">
+
+            <img src="img/kickflip.jpg" alt="kickflip" style="width:80%;margin: 0 auto;">
+            <br>
+
+        <p style="width: 80%;margin: 0 auto;">Sweatshirt: direct to garment print of a painting by Will Segerstrom. Natural dye process on 50/50 blend sweatshirts. Model Jacob is slim, 6'3" and sporting an XL.</p>
+        <br>
+        </div>
+      </div>
+      <div class="row row-eq-height">
         <div class="col-md-6">
 
-          green
+          <!-- green -->
 
           <img src="img/yellow.jpg" alt="green">
           <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-              <input type="hidden" name="cmd" value="_s-xclick">
-              <input type="hidden" name="hosted_button_id" value="VP89P4JZCL3N4">
-              <table>
-              <tr><td><input type="hidden" name="on0" value="SIZE">SIZE</td></tr><tr><td><select name="os0">
-                  <option value="M">M $40.00 USD</option>
-                  <option value="L">L $40.00 USD</option>
-                  <option value="XL">XL $40.00 USD</option>
-              </select> </td></tr>
-              </table>
-              <input type="hidden" name="currency_code" value="USD">
-              <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-              <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-              </form>
+            <input type="hidden" name="cmd" value="_s-xclick">
+            <input type="hidden" name="hosted_button_id" value="VP89P4JZCL3N4">
+            <table>
+            <tr><td><input type="hidden" name="on0" value="SIZE">SIZE</td></tr><tr><td><select name="os0">
+                <option value="M">M $40.00 USD</option>
+                <option value="L">L $40.00 USD</option>
+                <option value="XL">XL $40.00 USD</option>
+            </select> </td></tr>
+            </table>
+            <input type="hidden" name="currency_code" value="USD">
+            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+            </form>
+            
               
           
           
@@ -67,29 +92,29 @@ img{
         <div class="col-md-6">
 
 
-          purple
+          <!-- purple -->
           <img src="img/purple.jpg" alt="purple">
           <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-              <input type="hidden" name="cmd" value="_s-xclick">
-              <input type="hidden" name="hosted_button_id" value="QBEW4JLD78KL8">
-              <table>
-              <tr><td><input type="hidden" name="on0" value="SIZE">SIZE</td></tr><tr><td><select name="os0">
-                  <option value="M">M $40.00 USD</option>
-                  <option value="L">L $40.00 USD</option>
-                  <option value="XL">XL $40.00 USD</option>
-              </select> </td></tr>
-              </table>
-              <input type="hidden" name="currency_code" value="USD">
-              <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-              <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-              </form>
-              
+            <input type="hidden" name="cmd" value="_s-xclick">
+            <input type="hidden" name="hosted_button_id" value="QBEW4JLD78KL8">
+            <table>
+            <tr><td><input type="hidden" name="on0" value="SIZE">SIZE</td></tr><tr><td><select name="os0">
+                <option value="M">M $40.00 USD</option>
+                <option value="L">L $40.00 USD</option>
+                <option value="XL">XL $40.00 USD</option>
+            </select> </td></tr>
+            </table>
+            <input type="hidden" name="currency_code" value="USD">
+            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+            </form>
+            
           </div>
 
 
 
           <div class="col-md-6">
-            red
+            <!-- red -->
             <img src="img/red.jpg" alt="red">
 
             <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
@@ -107,33 +132,35 @@ img{
                 <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
                 </form>
                 
+                
           </div>
 
           <div class="col-md-6">
 
 
 
-            blue
+            <!-- blue -->
 
 
             <img src="img/blue.jpg" alt="blue">
 
-            <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-                <input type="hidden" name="cmd" value="_s-xclick">
-                <input type="hidden" name="hosted_button_id" value="8KY3DEHN3N7UC">
-                <table>
-                <tr><td><input type="hidden" name="on0" value="SIZE">SIZE</td></tr><tr><td><select name="os0">
-                    <option value="M">M $40.00 USD</option>
-                    <option value="L">L $40.00 USD</option>
-                    <option value="XL">XL $40.00 USD</option>
-                </select> </td></tr>
-                </table>
-                <input type="hidden" name="currency_code" value="USD">
-                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-                </form>
-                
 
+                
+                <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="8KY3DEHN3N7UC">
+                    <table>
+                    <tr><td><input type="hidden" name="on0" value="SIZE">SIZE</td></tr><tr><td><select name="os0">
+                        <option value="M">M $40.00 USD</option>
+                        <option value="L">L $40.00 USD</option>
+                        <option value="XL">XL $40.00 USD</option>
+                    </select> </td></tr>
+                    </table>
+                    <input type="hidden" name="currency_code" value="USD">
+                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                    </form>
+                    
 
           </div>
       </div>
@@ -141,7 +168,8 @@ img{
       <hr>
 
       <footer>
-        <p>&copy; Company 2015</p>
+        <!-- <p>&copy; Company 2015</p> -->
+            <a href="mailto:joe.waine@gmail.com">joe.waine@gmail.com</a>
       </footer>
     </div> <!-- /container -->        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
